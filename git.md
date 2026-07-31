@@ -104,3 +104,12 @@ The hidden `.git` directory is the repository.
 - What is a commit, exactly?
 - Why do commits have long hash values?
 - What is the difference between fetch, pull, and clone?
+
+## Git Workflow Practice
+
+Today I learned how to:
+- initialize a repository
+- clone a repository
+- stage files
+- commit changes
+- push changes to GitHub
