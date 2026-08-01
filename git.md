@@ -113,3 +113,52 @@ Today I learned how to:
 - stage files
 - commit changes
 - push changes to GitHub
+
+## Git Branching, Merging, and Change Management
+
+### Branches
+
+Branches allow developers to work on changes independently without affecting the main codebase.
+
+Common workflow:
+
+1. Create a feature branch
+2. Make changes
+3. Commit changes
+4. Merge approved changes into the main branch
+5. Push updates to the remote repository
+
+Example commands:
+
+```bash
+git branch feature-name
+git switch feature-name
+git add .
+git commit -m "Describe changes"
+git switch main
+git merge feature-name
+git push
+
+Merge Conflicts
+
+A merge conflict occurs when Git cannot automatically combine changes because multiple branches modified the same part of a file.
+
+Resolving conflicts requires:
+
+Reviewing the conflicting changes
+Deciding which version should be kept
+Updating the file
+Committing the resolution
+
+Merge conflicts demonstrate the importance of human review and decision-making when managing changes.
+
+Why Git Matters in Cybersecurity
+
+Git supports security practices by providing:
+
+Traceability — tracking who made changes and when
+Accountability — associating changes with specific contributors
+Change management — reviewing and approving modifications before deployment
+Version history — maintaining an audit trail of system changes
+
+These concepts connect to cybersecurity governance, risk management, compliance frameworks, and secure software development practices.
